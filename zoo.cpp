@@ -5,14 +5,14 @@ using namespace std;
 class Animal {
    public:
       Animal(string speciesName, unsigned int discoveryYear) {
-         species = speciesName;
-         year_discovered = discoveryYear;
+         species = speciesName;		  //v	
+         year_discovered = discoveryYear; //goes to .cpp
       }
 
       Animal() : species(""), year_discovered(0) {};
 
       void display() {
-         cout << species << " [" << year_discovered << "]" << endl;
+         cout << species << " [" << year_discovered << "]" << endl;  //should also go to .cpp
       }
 
    private:

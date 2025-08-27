@@ -1,13 +1,13 @@
 #include "Animal.h"
 using namespace std;
 
-Animal:: Animal(std:: string name, unsigned int year)
+Animal:: Animal(std:: string speciesName, unsigned int discoveryYear)
 {
-	std:: string speciesName = name;
-	unsigned int discoveryYear = year;
+	std:: string name = speciesName;
+	unsigned int year = discoveryYear;
 }
 
-void Animal:: display(std:: string name, unsigned int year)
+void Animal:: display()
 {
 	cout << name << " [" << year << "]" << endl;
 }

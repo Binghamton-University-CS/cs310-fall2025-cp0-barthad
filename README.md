@@ -1,5 +1,5 @@
 Full Name: Partha Dhar
-GitHub ID: bartha
+GitHub ID: barthad
 Binghamton CS userid: pdhar
 Discord name: bartha
 

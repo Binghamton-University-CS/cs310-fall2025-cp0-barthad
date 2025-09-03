@@ -2,20 +2,12 @@
 #include <stdlib.h>
 #include <string.h>
 #include "Animal.h"
+#include "AnimalsInZoo.h"
 using namespace std;
 
-class AnimalsInZoo {
-   public:
-	AnimalsInZoo(Animal animal);
-	AnimalsInZoo();
-	void display();
-   private:
-	int numAnimals;
-	Animal animal;
-};
-
-AnimalsInZoo::AnimalsInZoo(Animal animal) {
+AnimalsInZoo::AnimalsInZoo(Animal newAnimal) {
 	numAnimals = 1;
+	animal = newAnimal; 
 }
 
 AnimalsInZoo::AnimalsInZoo() {
@@ -24,7 +16,7 @@ AnimalsInZoo::AnimalsInZoo() {
 
 void AnimalsInZoo::display() {
 	cout << "Number of Animals: " << numAnimals << endl;
-	if (numsAnimals == 1){
+	if (numAnimals == 1){
 		animal.display();
 	}
 }
